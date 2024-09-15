@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica", "Open Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.head-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 63px;
+  background-color: #0f1111;
+  color: white;
+  padding: 0 7rem;
+}
+
+.logo a img {
+  width: 120px;
+  height: 70px;
+  margin-top: 2rem;
+}
+
+.dropdown {
+  width: 47%;
+  height: 2.85rem;
+  display: flex;
+  align-items: center;
+}
+
+#select-categories {
+  width: 50px;
+  height: 40px;
+  padding: 0 6px;
+  background-color: #f3f3f3;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border: none;
+  outline: none;
+}
+
+.search-container {
+  width: 85%;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.83rem 0.5rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.search-icon {
+  width: 7.5%;
+  height: 100%;
+  padding-top: 5px;
+  border: none;
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+  background-color: #febd68;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+}
+
+.deliver {
+  font-size: 11px;
+  text-align: end;
+  font-weight: lighter;
+  padding: 1px;
+  opacity: 0.8;
+}
+
+.deliver-india {
+  padding-top: 5px;
+}
+
+.india {
+  font-weight: 500;
+}
+
+.hello {
+  font-size: 12px;
+}
+
+.accounts {
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.returns {
+  font-size: 11px;
+}
+
+.cart-icon {
+  color: white;
+  text-decoration: none;
+}
+
+.cart {
+  font-size: 15px;
+  margin-left: -4px;
+}
+
+.section-left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 35%;
+}
+
+.section-left a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+nav {
+  background-color: #222f3d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 7.5rem;
+  width: 100%;
+  height: 43px;
+}
+
+.section-right a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.main-section1 {
+  background-image: url("https://priyanshu-240499.github.io/Assignments-CSS/Weekly%20Test%20for%20CSS%20(Week-3)/images/hero-img.jpg");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-section2-container {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  overflow: hidden;
+ 
+  /* display: flex; */
+}
+
+.main-section2 {
+  display: flex;
+  justify-content: center;
+  background-color: #f3f3f3;
+  width: 100%;
+  padding: 2.5rem 3rem;
+}
+
+.box1 {
+  width: 290px;
+  height: 410px;
+  padding: 2.3rem 2.2rem;
+  margin: 1.5rem;
+  background-color: white;
+  transform: scale(1);
+  transition: 0.7s ease-in-out;
+}
+
+.box1-container{
+  width: 320px;
+  height: 430px;
+  overflow: hidden;
+}
+
+.box1:hover {
+  transform: scale(1.1);
+  
+}
+
+img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  margin: 1rem 0;
+}
+
+.box1 a{
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.box1 a:hover {
+  text-decoration: underline;
+  color: #c7511f;
+}
+
+.box1 h3 {
+  font-weight: bold;
+}
+
+.back-to-top {
+  width: 100%;
+  height: 60px;
+  background-color: #37475a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-to-top a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.btt:hover{
+  color:#dddddd
+  
+}
+
+.btt{
+  cursor: pointer;
+}
+
+footer a{
+  display: block;
+  text-decoration: none;
+  color: #dddddd;
+  margin: 0.5rem 0;
+  font-size: 12px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer h3 {
+  color: #dddddd;
+  margin: 1.5rem 0 1rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 240px;
+  background-color: #232f3e;
+  /* padding: 0 5rem; */
+}
